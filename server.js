@@ -13,7 +13,7 @@ import ContactRoutes from "./routes/contact.routes.js";
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://food-frontend-m36h.vercel.app",
     credentials: true,
   }),
 );
